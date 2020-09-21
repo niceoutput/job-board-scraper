@@ -17,5 +17,6 @@ const doc = new GoogleSpreadsheet(
   await sheet.addRows([
     { title: "Software Engineer", location: "NY" },
     { title: "Designer", location: "SF" },
+    { title: "CTO", location: "DC" },
   ]);
 })();
